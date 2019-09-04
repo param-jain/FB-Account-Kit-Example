@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "react-native-facebook-account-kit": "^2.1.0"
+  }
+}
