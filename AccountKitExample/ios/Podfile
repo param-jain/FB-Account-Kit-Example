@@ -3,7 +3,8 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 target 'AccountKitExample' do
   # Pods for AccountKitExample
-  pod 'React', :path => '../node_modules/react-native/'
+  pod 'React', :path => '../node_modules/react-native'
+  pod 'RNAccountKit', :path => '../node_modules/react-native-facebook-account-kit/ios'
   pod 'React-Core', :path => '../node_modules/react-native/React'
   pod 'React-DevSupport', :path => '../node_modules/react-native/React'
   pod 'React-RCTActionSheet', :path => '../node_modules/react-native/Libraries/ActionSheetIOS'
